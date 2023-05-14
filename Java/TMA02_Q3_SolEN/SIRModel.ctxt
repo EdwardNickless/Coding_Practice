@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=SIRModel
+comment0.text=\r\n\ Question\ 3a\r\n\ \r\n\ Shows\ the\ spread\ of\ an\ infection\ in\ a\ school\ population\r\n\ using\ a\ SIR\ Model.\ A\ SIR\ Model\ represents\ each\ person\ in\r\n\ the\ poulation\ as\ being\ either\ Susceptible,\ Infected\ or\ Recovered.\r\n\ The\ sum\ of\ all\ three\ sub-populations\ always\ adds\ up\ to\ be\ equal\ to\r\n\ the\ total\ population.\r\n\ The\ infection\ spread\ is\ shown\ using\ a\ printed\ graph\ displaying\r\n\ how\ many\ people\ are\ infected\ on\ each\ day\ from\ day\ 0\ to\ the\ final\ day.\r\n\r\n\ @author\ Edward\ Nickless\r\n\ @version\ 2\ March\ 2022\r\n
+comment1.params=transRate\ recRate
+comment1.target=SIRModel(double,\ double)
+comment1.text=\r\n\ Question\ 3c\r\n\ \r\n\ Constructor\ for\ objects\ of\ class\ SIRModel.\r\n\ \r\n\ @param\ transRate\ The\ double\ value\ used\ to\ intialise\ the\ TRANS_RATE\ field\r\n\ @param\ recRate\ The\ double\ value\ used\ to\ intialise\ the\ REC_RATE\ field\r\n
+comment2.params=currentInfected\ currentSusceptible
+comment2.target=double\ newlyInfected(double,\ double)
+comment2.text=\r\n\ Question\ 3d\r\n\ \r\n\ Calculates\ the\ expected\ number\ of\ newly\ infected\ people\ in\r\n\ a\ day\ using\ a\ density-dependant\ model.\r\n\ \r\n\ @param\ currentInfected\ The\ number\ of\ people\ currently\ infected\r\n\ @param\ currentSusceptible\ The\ number\ of\ people\ currently\ susceptible\ to\ infection\r\n\ @return\ The\ expected\ number\ of\ new\ infections\ in\ a\ day\ represented\ as\ a\ double\r\n
+comment3.params=currentInfected
+comment3.target=double\ newlyRecovered(double)
+comment3.text=\r\n\ Question\ 3e\r\n\ \r\n\ Calculates\ the\ expected\ number\ of\ people\ to\ recover\ in\ a\ day\r\n\ and\ returns\ this\ as\ a\ double.\r\n\ \r\n\ @param\ currentInfected\ The\ number\ of\ currently\ infected\ people\r\n\ @return\ The\ number\ of\ people\ expected\ to\ recover\ in\ a\ day\r\n
+comment4.params=currentInfected\ currentSusceptible
+comment4.target=double\ changeInInfected(double,\ double)
+comment4.text=\r\n\ Question\ 3f\r\n\ \r\n\ Returns\ a\ positive\ or\ negative\ value\ represented\ as\ a\ double\r\n\ depicting\ the\ change\ in\ the\ number\ of\ people\ expected\ to\ be\r\n\ infected\ after\ a\ day\ has\ passed.\ The\ value\ is\ negative\ if\ the\r\n\ number\ of\ daily\ infections\ is\ falling.\r\n\ \r\n\ @param\ currentInfected\ The\ number\ of\ currently\ infected\ people\r\n\ @param\ currentSusceptible\ The\ number\ of\ people\ currently\ susceptible\ to\ infection\r\n\ @return\ The\ change\ in\ the\ number\ of\ people\ expected\ to\ be\ infected\ after\ a\ day\r\n
+comment5.params=prevDay
+comment5.target=void\ nextDay(int)
+comment5.text=\r\n\ Question\ 3g\r\n\ \r\n\ Calculates\ the\ number\ of\ infected,\ recovered,\ and\r\n\ susceptible\ people\ based\ on\ the\ previous\ day's\ data.\r\n\ Assigns\ the\ calculated\ values\ to\ the\ respective\ double\r\n\ arrays\ at\ the\ index\ of\ the\ current\ day.\r\n\ \r\n\ @param\ prevDay\ The\ index\ of\ the\ previous\ day\r\n
+comment6.params=
+comment6.target=void\ createData()
+comment6.text=\r\n\ Question\ 3h\r\n\ \r\n\ Generates\ a\ model\ of\ how\ the\ infection\ is\ spreading\ within\r\n\ the\ school\ population.\ Each\ of\ the\ three\ arrays\r\n\ infected,\ recovered,\ and\ susceptible\ will\ now\ be\ populated.\r\n
+comment7.params=
+comment7.target=void\ printGraph()
+comment7.text=\r\n\ Question\ 3i\r\n\ \r\n\ Prints\ a\ graph\ representing\ the\ numebr\ of\ infected\ people\r\n\ on\ each\ day.\r\n
+numComments=8

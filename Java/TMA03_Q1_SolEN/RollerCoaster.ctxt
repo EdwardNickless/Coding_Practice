@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=RollerCoaster
+comment0.text=\r\n\ Question\ 2(b)(i)\r\n\ \r\n\ RollerCoaster\ is\ a\ class\ that\ abstracts\ the\ common\ features\r\n\ of\ roller\ coasters\ at\ a\ theme\ park.\ RollerCoasters\ can\ have\ multiple\ cars\r\n\ that\ can\ take\ a\ certain\ number\ of\ people\ in\ them\ (their\ capacity).\r\n\ The\ total\ capacity\ is\ the\ number\ of\ cars\ multiplied\ by\ the\ capacity\ of\ each\ car.\r\n\r\n\ @author\ Edward\ Nickless\r\n\ @version\ 26.04.2022\r\n
+comment1.params=aName\ aCarCapacity\ aNumberOfCars
+comment1.target=RollerCoaster(java.lang.String,\ int,\ int)
+comment1.text=\r\n\ Question\ 2(b)(ii)\r\n\ \r\n\ Constructor\ for\ objects\ of\ class\ Rollercoaster.\r\n\ \r\n\ @param\ aName\ The\ name\ of\ the\ Rollercoaster.\r\n\ @param\ aCarCapacity\ The\ capacity\ of\ a\ single\ car\ on\ the\ RollerCoaster.\r\n\ @param\ aNumberOfCars\ The\ number\ of\ cars\ the\ RollerCoaster\ has.\r\n
+comment2.params=
+comment2.target=int\ getCapacity()
+comment2.text=\r\n\ Question\ 2(b)(iii)\r\n\ \r\n\ Returns\ the\ total\ capacity\ of\ the\ RollerCoaster.\r\n\ This\ is\ the\ numebr\ of\ cars\ multiplied\ by\ the\ capacity\ of\ each\ car.\r\n\ \r\n\ @return\ The\ number\ of\ cars\ multiplied\ by\ the\ capacity\ of\ each\ car.\r\n
+comment3.params=
+comment3.target=java.lang.String\ toString()
+comment3.text=\r\n\ Question\ 2(b)(iv)\r\n\ \r\n\ Return\ a\ String\ representation\ of\ a\ RollerCoaster\ including\r\n\ its\ class\ name\ and\ total\ capacity.\r\n\ \r\n\ @return\ the\ string\ representation\ of\ the\ RollerCoaster.\ \r\n
+comment4.params=obj
+comment4.target=boolean\ equals(java.lang.Object)
+comment4.text=\r\n\ Question\ 1(b)(v)\r\n\ \r\n\ Overrides\ the\ equals\ method\ inherited\ from\ class\ Ride.\r\n\ True\ if\ the\ ride\ name\ and\ total\ capacity\ are\ equal\ to\ this\r\n\ object's,\ otherwise\ returns\ false.\ For\ the\ purpose\ of\r\n\ this\ method,\ instances\ of\ subclasses\ are\ considered\ equal.\r\n\ \r\n\ @param\ Object\ An\ object\ to\ be\ compared\ against\ this\ RollerCoaster\ instance.\r\n\ \r\n\ @return\ boolean\ True\ if\ the\ ride\ name\ and\ car\ capacity\ are\r\n\ equal\ to\ this\ object's,\ otherwise\ returns\ false.\r\n
+comment5.params=
+comment5.target=int\ hashCode()
+comment5.text=\r\n\ Question\ 2(b)(vi)\r\n\ \r\n\ Overrides\ the\ hashCode\ method\ inherited\ from\ Ride.\r\n\ Returns\ a\ hashcode\ using\ the\ hash\ method\ from\ class\ Objects.\r\n\ \r\n\ @return\ a\ hashcode\ generated\ using\ the\ hash\ method\ from\ class\ Objects\r\n\ \ \ \ \ \ \ \ \ with\ the\ values\ of\ the\ ride\ name\ and\ total\ capacity.\r\n
+numComments=6

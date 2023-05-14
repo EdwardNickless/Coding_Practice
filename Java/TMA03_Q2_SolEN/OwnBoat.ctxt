@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=OwnBoat
+comment0.text=\r\n\ Class\ OwnBoat\ simulates\ a\ Dinghy\ \r\n\ that\ is\ owned\ by\ a\ sailor\ who\ may\ be\ a\ \r\n\ visitor\ or\ a\ member\ of\ the\ club.\r\n\r\n\ @author\ M250\ Module\ team\r\n\ @version\ v1\r\n
+comment1.params=aClassName\ aBoatName\ aSailNumber\ isAVisitor
+comment1.target=OwnBoat(java.lang.String,\ java.lang.String,\ int,\ boolean)
+comment1.text=\r\n\ Question\ 2(b)(ii)\r\n\ \r\n\ Constructor\ for\ objects\ of\ class\ OwnBoat.\r\n\ \r\n\ @param\ aClassName\ The\ class\ of\ the\ OwnBoat\ (e.g.\ Laser)\r\n\ @param\ aBoatName\ The\ boatName\ of\ the\ OwnBoat\r\n\ @param\ aSailNumber\ The\ sail\ number\ of\ the\ OwnBoat\r\n\ @param\ isAVisitor\ Whether\ the\ sailor\ is\ a\ visitor\ or\ a\ club\ member.\r\n\ \r\n\ sets\ the\ fields\ className,\ boatName\ and\ sailNumber\ to\ those\ of\ the\ provided\ parameters.\r\n\ sets\ the\ field\ visitor\ to\ true\ if\ the\ sailor\ is\ a\ member,\ otherwise\r\n\ sets\ visitor\ to\ false\r\n\ \r\n\ @author\ Edward\ Nickless\r\n\ @version\ 26.04.2022\r\n
+comment2.params=aVisitor
+comment2.target=void\ setVisitor(boolean)
+comment2.text=\r\n\ setter\ method\ for\ visitor\r\n\ @param\ aVisitor\ true\ if\ the\ owner\ is\ a\ visitor,\ otherwise\ false.\r\n
+comment3.params=
+comment3.target=boolean\ isVisitor()
+comment3.text=\r\n\ Tells\ whether\ the\ boat\ is\ being\ used\ by\ a\ visitor\ the\ club.\r\n\ @return\ visitor\ true\ if\ the\ owner\ is\ a\ visitor,\ otherwise\ false.\r\n
+comment4.params=
+comment4.target=java.lang.String\ toString()
+comment4.text=\r\n\ Question\ 2(b)(iii)\r\n\ \r\n\ Overrides\ the\ toString\ method\ inherited\ from\ class\ Dinghy.\r\n\ Provides\ a\ meaningful\ string\ representation\ of\ this\ OwnBoats\r\n\ current\ state.\r\n\ \r\n\ @return\ string\ A\ meaningful\ representation\ of\ this\ objects\ current\ state.\r\n\ \r\n\ @author\ Edward\ Nickless\r\n\ @version\ 26.04.2022\r\n
+comment5.params=obj
+comment5.target=boolean\ equals(java.lang.Object)
+comment5.text=\r\n\ Question\ 2(b)(iv)\r\n\ \r\n\ Overrides\ the\ equals\ method\ inherited\ from\ class\ Dinghy.\r\n\ Returns\ a\ boolean,\ false\ if\ not\ comapring\ two\ OwnBoat\ instances,\r\n\ otherwise\ functions\ the\ same\ as\ the\ inherited\ equals\ method\ from\ Dinghy.\r\n\ \r\n\ @param\ Object\ an\ object\ to\ be\ compared\ against\ this\ OwnBoat\ instance.\r\n\ \r\n\ @return\ boolean\ False\ if\ not\ comparing\ two\ OwnBoat\ objects,\ otherwise\r\n\ \ \ \ \ \ \ \ \ returns\ true\ if\ className\ and\ boatName\ are\ equal.\r\n\ \r\n\ @author\ Edward\ Nickless\r\n\ @version\ 26.04.2022\r\n
+numComments=6

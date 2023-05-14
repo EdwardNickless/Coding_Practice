@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=RaceOrganiser
+comment0.text=\r\n\ class\ RaceOrganiser\ models\ information\r\n\ used\ by\ a\ race\ officer\ at\ a\ sailing\ club.\r\n\r\n\ @author\ M250\ module\ team\r\n\ @version\ v1\r\n
+comment1.params=
+comment1.target=RaceOrganiser()
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ RaceOrganiser.\r\n\ Creates\ an\ empty\ ArrayList\ holding\ instances\ of\r\n\ class\ Dinghy\ or\ of\ subclasses\ of\ Dinghy.\r\n\ \r\n\ @author\ Edward\ Nickless\r\n\ @version\ 02.05.2022\r\n
+comment2.params=aRacer
+comment2.target=void\ addRacer(Dinghy)
+comment2.text=\r\n\ Question\ 2(d)(ii)\r\n\ \r\n\ Adds\ the\ given\ Dinghy\ object\ to\ the\ racers\ list\r\n\ if\ it\ is\ not\ already\ in\ the\ racers\ list.\r\n\ \r\n\ @param\ aRacer\ an\ instance\ of\ class\ Dinghy\ or\ of\r\n\ a\ sublacss\ of\ Dinghy.\r\n\ \r\n\ @author\ Edward\ Nickless\r\n\ @version\ 02.05.2022\r\n
+comment3.params=
+comment3.target=void\ printRacers()
+comment3.text=\r\n\ Question\ 2(d)(iii)\r\n\ \r\n\ Prints\ a\ formatted\ table\ of\ the\ list\ of\ dinghies\r\n\ entered\ into\ the\ race.\ Details\ the\ name,\ boat\ class\r\n\ and\ sail\ number\ of\ each\ dinghy.\r\n\ \r\n\ @author\ Edward\ Nickless\r\n\ @version\ 02.05.2022\r\n
+comment4.params=
+comment4.target=void\ clear()
+comment4.text=\r\n\ method\ to\ clear\ the\ racers\ list\r\n
+comment5.params=
+comment5.target=int\ getRacersSize()
+comment5.text=\r\n\ @returns\ the\ size\ of\ the\ racers\ collection\r\n
+numComments=6

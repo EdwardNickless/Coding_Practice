@@ -1,0 +1,27 @@
+#BlueJ class context
+comment0.target=Library
+comment1.params=aName
+comment1.target=Library(java.lang.String)
+comment1.text=\r\n\ Sets\ the\ name\ field\ and\ initialises\ an\ empty\r\n\ ArrayList\ called\ books\ when\ the\ object\ is\ constructed.\r\n\ \r\n\ Question\ 2(c)\r\n
+comment2.params=anAuthor\ aTitle\ anId
+comment2.target=void\ addBook(java.lang.String,\ java.lang.String,\ java.lang.String)
+comment2.text=\r\n\ Adds\ a\ new\ object\ of\ type\ Book\ to\ the\r\n\ ArrayList\ books.\r\n\ \r\n\ Question\ 2(d)(i)\r\n
+comment3.params=aBookPrice\ aNumberOfDays
+comment3.target=double\ calculateFine(double,\ int)
+comment3.text=\r\n\ Calculates\ a\ late\ return\ fine\ based\ on\r\n\ 2\ percent\ of\ the\ cost\ of\ the\ book\r\n\ multiplied\ by\ the\ number\ of\ days\ late.\r\n\ \r\n\ Question\ 2(d)(ii)\r\n
+comment4.params=aTitle
+comment4.target=java.util.ArrayList\ getMatchingBooks(java.lang.String)
+comment4.text=\r\n\ Searches\ the\ library\ and\ returns\r\n\ an\ ArrayList\ of\ books\ that\ match\r\n\ the\ given\ book\ title.\r\n\ \r\n\ Question\ 2(d)(iii)\r\n
+comment5.params=aBook
+comment5.target=boolean\ isAvailable(Book)
+comment5.text=\r\n\ Returns\ whether\ a\ book\ in\ the\ library\ is\ available\r\n\ or\ not.\ A\ book\ is\ available\ only\ if\ the\ given\ book\ is\r\n\ owned\ by\ the\ library\ and\ is\ not\ already\ on\ loan.\r\n\ \r\n\ Question\ 2(d)(iv)\r\n
+comment6.params=
+comment6.target=void\ listAllBooks()
+comment6.text=\r\n\ Prints\ out\ lines\ of\ text\ containing\ \r\n\ the\ details\ of\ all\ of\ the\ books\r\n\ owned\ by\ the\ library.\r\n\ \r\n\ Question\ 2(d)(v)\r\n
+comment7.params=aBook
+comment7.target=void\ loanBook(Book)
+comment7.text=\r\n\ Searches\ through\ the\ books\ owned\ by\ the\ library\ for\ the\ given\r\n\ book\ and\ sets\ the\ first\ matching\ books\ onLoan\ status\ to\ true.\r\n\ Does\ nothing\ if\ a\ matching\ book\ is\ not\ found.\r\n\ \r\n\ Question\ 2(d)(vi)\r\n
+comment8.params=aBook
+comment8.target=void\ removeBook(Book)
+comment8.text=\r\n\ Searches\ through\ the\ books\ owned\ by\ the\ library\r\n\ for\ the\ given\ book.\ The\ first\ matching\ book\ then\r\n\ removed\ from\ the\ library.\ If\ no\ matching\ book\ is\r\n\ found\ then\ a\ message\ is\ printed\ to\ inform\ the\ user.\r\n\ \r\n\ Question\ 2(d)(vii)\r\n
+numComments=9

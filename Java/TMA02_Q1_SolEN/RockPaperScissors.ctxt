@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=RockPaperScissors
+comment0.text=\r\n\ Question\ 1(a)\r\n\ \r\n\ Plays\ the\ game\ "Rock,\ Paper,\ Scissors".\r\n\ The\ user\ plays\ against\ the\ computer.\r\n\ The\ winner\ is\ the\ first\ player\ to\ reach\ 3\ rounds\ won.\r\n\ If\ the\ user\ and\ computer\ choose\ the\ same\ word,\ the\ round\ is\ a\ draw.\r\n\ Otherwise,\ Rock\ beats\ Scissors,\ Scissors\ beats\ Paper,\ Paper\ beats\ Rock.\r\n\r\n\ @author\ Edward\ Nickless\r\n\ @version\ 1\ March\ 2022\r\n
+comment1.params=
+comment1.target=RockPaperScissors()
+comment1.text=\r\n\ Question\ 1(c)\r\n\ \r\n\ Constructor\ for\ objects\ of\ class\ RockPaperScissors.\r\n
+comment2.params=
+comment2.target=void\ printPrompt()
+comment2.text=\r\n\ Question\ 1(d)\r\n\ \r\n\ Prints\ two\ blank\ lines\ followed\ by\r\n\ the\ prompt\ for\ the\ user\ to\ make\ their\ choice.\r\n
+comment3.params=
+comment3.target=java.lang.String\ userChoice()
+comment3.text=\r\n\ Question\ 1(e)\r\n\ \r\n\ Return\ the\ user's\ input\ for\ a\ round\ of\ the\ game,\ in\ lower\ case,\r\n\ with\ leading\ and\ trailing\ white\ space\ trimmed.\r\n\ \r\n\ @return\ The\ user's\ input.\r\n
+comment4.params=
+comment4.target=java.lang.String\ computerChoice()
+comment4.text=\r\n\ Question\ 1(f)\r\n\ \r\n\ Generates\ a\ random\ number\ between\ 0\ and\ 2\ (inclusive)\ and\ determines\r\n\ which\ choice\ the\ computer\ will\ make\ from\ this\ number.\r\n\ 0\ represents\ "rock",\ 1\ represents\ "paper",\ 2\ represents\ "scissors".\r\n\ \r\n\ @return\ The\ computers\ choice\ for\ a\ round.\r\n
+comment5.params=yourChoice\ computerChoice
+comment5.target=java.lang.String\ findWinner(java.lang.String,\ java.lang.String)
+comment5.text=\r\n\ Question\ 1(g)\r\n\ \r\n\ Return\ the\ winner\ of\ the\ round\ and\ increment\ the\ winners\ score\ by\ 1.\r\n\ If\ the\ round\ is\ a\ draw\ then\ this\ method\ returns\ "draw"\ and\r\n\ neither\ score\ is\ incremented.\r\n\ If\ the\ user\ inputs\ an\ invalid\ string\ the\ computer\ wins.\r\n\ \r\n\ @param\ yourChoice\ The\ user's\ choice\ for\ this\ round\r\n\ @param\ computerChoice\ The\ computer's\ choice\ for\ this\ round\r\n\ @return\ The\ winner\ of\ the\ round\ or\ a\ "draw"\ result\r\n
+comment6.params=
+comment6.target=void\ playRound()
+comment6.text=\r\n\ Question\ 1(h)\r\n\ \r\n\ Plays\ one\ round\ of\ "Rock,\ Paper,\ Scissors".\r\n\ This\ method\ uses\ the\ findWinner\ method\ of\r\n\ this\ class\ to\ find\ the\ winner,\ prints\ the\r\n\ result\ of\ this\ round\ and\ then\ prints\ the\r\n\ current\ scores\ of\ each\ player.\r\n
+comment7.params=
+comment7.target=void\ playGame()
+comment7.text=\r\n\ Question\ 1(i)\r\n\ \r\n\ Plays\ a\ game\ of\ "Rock,\ Paper,\ Scissors"\ until\r\n\ either\ the\ user\ reaches\ a\ score\ of\ 3\ or\ the\ computer\r\n\ reaches\ a\ score\ of\ 3.\ Prints\ the\ overall\ winner\ of\ the\ game.\r\n
+numComments=8

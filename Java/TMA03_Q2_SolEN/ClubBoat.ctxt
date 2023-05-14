@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=ClubBoat
+comment0.text=\r\n\ Class\ ClubBoat\ simulates\ a\ Dinghy\ that\ is\ owned\ by\ a\ sailing\ club.\r\n\r\n\ @author\ M250\ Module\ team\r\n\ @version\ v1\r\n
+comment1.params=aClassName\ aBoatName\ aSailNumber
+comment1.target=ClubBoat(java.lang.String,\ java.lang.String,\ int)
+comment1.text=\r\n\ Question\ 2(a)(i)\r\n\ \r\n\ Constructor\ for\ objects\ of\ class\ ClubBoat.\r\n\ \r\n\ @param\ aClassName\ The\ class\ of\ the\ ClubBoat\ (e.g.\ Laser)\r\n\ @param\ aBoatName\ The\ boatName\ of\ the\ ClubBoat\r\n\ @param\ aSailNumber\ The\ sail\ number\ of\ the\ ClubBoat\r\n\ \r\n\ sets\ the\ fields\ className,\ boatName\ and\ sailNumber\ to\ those\ of\ the\ provided\ parameters\r\n\ \r\n\ @author\ Edward\ Nickless\r\n\ @version\ 26.04.2022\r\n
+comment2.params=anId
+comment2.target=void\ setMemberId(java.lang.String)
+comment2.text=\r\n\ Setter\ method\ for\ memberId.\r\n\ @param\ anId\ An\ id\ for\ the\ member\ loaning\ the\ boat.\r\n
+comment3.params=
+comment3.target=java.lang.String\ getMemberId()
+comment3.text=\r\n\ Getter\ method\ for\ memberId.\r\n\ @return\ the\ memberId\ of\ the\ person\ using\ this\ boat.\r\n
+comment4.params=
+comment4.target=java.lang.String\ toString()
+comment4.text=\r\n\ Question\ 2(a)(ii)\r\n\ \r\n\ Overrides\ the\ toString\ method\ inherited\ from\ class\ Dinghy.\r\n\ Provides\ a\ meaningful\ string\ representation\ of\ this\ ClubBoats\r\n\ current\ state.\r\n\ \r\n\ @return\ string\ A\ meaningful\ representation\ of\ this\ objects\ current\ state.\r\n\ \r\n\ @author\ Edward\ Nickless\r\n\ @version\ 26.04.2022\r\n
+comment5.params=obj
+comment5.target=boolean\ equals(java.lang.Object)
+comment5.text=\r\n\ Question\ 2(a)(iii)\r\n\ \r\n\ Overrides\ the\ equals\ method\ inherited\ from\ class\ Dinghy.\r\n\ Returns\ a\ boolean,\ false\ if\ not\ comapring\ two\ ClubBoat\ instances,\r\n\ otherwise\ functions\ the\ same\ as\ the\ inherited\ equals\ method\ from\ Dinghy.\r\n\ \r\n\ @param\ Object\ an\ object\ to\ be\ compared\ against\ this\ ClubBoat\ instance.\r\n\ \r\n\ @return\ boolean\ False\ if\ not\ comparing\ two\ ClubBoat\ objects,\ otherwise\r\n\ \ \ \ \ \ \ \ \ returns\ true\ if\ className\ and\ boatName\ are\ equal.\r\n\ \ \ \ \ \ \ \ \ \r\n\ @author\ Edward\ Nickless\r\n\ @version\ 26.04.2022\r\n
+numComments=6

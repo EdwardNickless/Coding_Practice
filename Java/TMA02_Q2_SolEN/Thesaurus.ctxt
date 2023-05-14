@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=Thesaurus
+comment0.text=\r\n\ Question\ 2a\r\n\ \r\n\ Models\ a\ real-world\ Thesaurus.\r\n\ Each\ entry\ contains\ a\ sequence\ of\ synonyms\ for\ that\ word.\r\n\ For\ example,\ if\ the\ looked-up\ word\ is\ happy,\ the\ corresponding\r\n\ sequence\ of\ synonyms\ is\ "joyful",\ "contented",\ "cheerful".\r\n\ New\ entries\ can\ be\ added,\ as\ can\ new\ synonyms\ for\ existing\ entries.\r\n\ Alternative\ sentences\ can\ be\ formed\ using\ words\ that\ exist\ in\r\n\ this\ Thesaurus\ and\ have\ synonyms\ available.\r\n\ New\ entries\ can\ be\ made\ by\ cross\ referencing\ existing\ entries.\r\n\r\n\ @author\ Edward\ Nickless\r\n\ @version\ 1\ March\ 2022\r\n
+comment1.params=
+comment1.target=Thesaurus()
+comment1.text=\r\n\ Question\ 2c\r\n\ \r\n\ Constructor\ for\ objects\ of\ class\ Thesaurus.\r\n
+comment2.params=
+comment2.target=java.util.HashMap\ getThesaurus()
+comment2.text=\r\n\ Question\ 2d\r\n\ \r\n\ Return\ the\ Thesaurus\ as\ a\ HashMap\ object.\r\n\ \r\n\ @return\ This\ Thesaurus.\r\n
+comment3.params=
+comment3.target=void\ populate()
+comment3.text=\r\n\ Question\ 2e\r\n\ \r\n\ Populates\ this\ Thesaurus\ with\ the\ following\ sample\ entries\:\r\n\ happy\ -\ joyful\ contented\ cheerful\r\n\ angry\ -\ annoyed\ vexed\r\n
+comment4.params=
+comment4.target=void\ print()
+comment4.text=\r\n\ Question\ 2f\r\n\ \r\n\ Prints\ the\ current\ state\ of\ this\ Thesaurus\ to\ the\ terminal\r\n\ in\ the\ format\ shown\ in\ the\ populate\ method\ comment.\r\n\ Each\ key\ in\ the\ HashMap\ is\ printed\ followed\ by\ "\ -\ "\ and\r\n\ the\ values\ for\ that\ key.\r\n
+comment5.params=aWord\ aSynonym
+comment5.target=void\ addSynonym(java.lang.String,\ java.lang.String)
+comment5.text=\r\n\ Question\ 2g\r\n\ \r\n\ Adds\ a\ [word\ -\ synonym]\ pair\ to\ this\ Thesaurus.\r\n\ If\ this\ Thesaurus\ already\ contains\ the\ given\ word,\r\n\ the\ synonym\ is\ added\ to\ the\ existing\ entry.\ Otherwise,\r\n\ a\ new\ entry\ is\ created\ for\ the\ [word\ -\ synonym]\ pair.\r\n\ \r\n\ @param\ aWord\ The\ word\ to\ be\ added\r\n\ @param\ aSynonym\ The\ synonym\ to\ be\ added\r\n
+comment6.params=aWord\ aSentence
+comment6.target=void\ replaceWord(java.lang.String,\ java.lang.String)
+comment6.text=\r\n\ Question\ 2h\r\n\ \r\n\ Prints\ variations\ of\ a\ given\ sentence,\ replacing\r\n\ the\ given\ word\ with\ matching\ synonyms.\r\n\ \r\n\ @param\ aWord\ The\ word\ to\ be\ replaced\r\n\ @param\ aSentence\ The\ sentence\ from\ which\ a\ variation\ can\ be\ constructed\r\n
+comment7.params=
+comment7.target=void\ crossReference()
+comment7.text=\r\n\ Question\ 2i\r\n\ \r\n\ Cross\ references\ all\ existing\ entries\ and\ synonyms\ in\r\n\ this\ Thesaurus.\ New\ [word\ -\ synonym]\ entries\ are\ added\r\n\ based\ on\ existing\ entries.\r\n\ For\ example,\ if\ the\ intial\ state\ is\:\r\n\ \ \ \ \ happy\ -\ cheerful\ joyful\r\n\ Then\ the\ state\ after\ calling\ this\ method\ will\ be\:\r\n\ \ \ \ \ happy\ -\ cheerful\ joyful\r\n\ \ \ \ \ cheerful\ -\ happy\ joyful\r\n\ \ \ \ \ joyful\ -\ happy\ cheerful\r\n
+numComments=8

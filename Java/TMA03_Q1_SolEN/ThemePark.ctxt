@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=ThemePark
+comment0.text=\r\n\ A\ ThemePark\ has\ a\ list\ of\ Rides.\r\n\ Rides\ can\ be\ added\ to\ the\ theme\ park.\r\n\ A\ String\ representation\ of\ a\ ThemePark\ can\ be\ displayed.\r\n\ \r\n\ @author\ M250\ Module\ Team\r\n\ @version\ v1\r\n
+comment1.params=
+comment1.target=ThemePark()
+comment1.text=\r\n\ This\ constructor\ for\ objects\ of\ class\ ThemePark\r\n\ initialises\ its\ rides\ list\ to\ an\ empty\ list.\r\n
+comment2.params=aRide
+comment2.target=void\ addRide(Ride)
+comment2.text=\r\n\ Add\ a\ ride\ to\ the\ theme\ park.\r\n\ \r\n\ @param\ aRide\ references\ a\ ride\ to\ be\ added\ to\ the\ ThemePark.\r\n
+comment3.params=
+comment3.target=java.lang.String\ toString()
+comment3.text=\r\n\ Returns\ a\ String\ representation\ of\ all\ the\ rides\ in\ the\ ThemePark\r\n\ @return\ the\ string\ representation\ of\ this\ ThemePark.\r\n
+comment4.params=
+comment4.target=void\ display()
+comment4.text=\r\n\ Display\ the\ string\ representation\ of\ this\ ThemePark.\r\n
+numComments=5
